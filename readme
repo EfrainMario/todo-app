@@ -1,0 +1,53 @@
+===================== To start this test =============================
+
+1. Navigate to the folder containing the three files using your terminal
+2. Run "python -m SimpleHTTPServer 8000" to start a simple web server
+3. Open a browser and navigate to localhost:8000 or 0.0.0.0:8000
+4. You should see what looks like a simple to-do list
+
+
+
+===================== A little bit of background =====================
+
+This test was designed to assess your coding skills as well as your hability to learn by yourself.
+
+You will find three files in the test folder. This instructions, an HTML and a JS file.
+
+All the index.html file does is to import the libraries you will need (Babel and React), declare a single
+"div" element and import our JS file. And that's it. You should not touch this file, all the logic
+should be built using the index.js file.
+
+If you are familiar with JS you might be finding the syntax on our index.js file a little weird. That's
+because that is not javascript, thats a JS extension called JSX. It was designed by the developers behind
+ReactJS to mix template and logic in a single language.
+
+Does this mean you need to be a React expert to solve this test? Not at all. The goal is for you to learn the
+very basics behind React, and this is what we are testing here: your hability to learn by yourself.
+
+But you're not alone! We're here to help. To start I recommend you take 5 minutes to read this article:
+
+https://www.freecodecamp.org/news/learn-react-js-in-5-minutes-526472d292f4/
+
+It has everything you need to solve this test. If you still have questions, try the ReactJS official docs
+and tutorials:
+
+https://reactjs.org/
+
+And if you still can't find a solution, send us an email.
+
+There's no shame on that and it won't affect your test. We believe being able to learn is about being able
+to ask the right questions as well. So hit us with your best questions!
+
+
+
+===================== The actual test ================================
+In the index.js file you have a small to-do list system. You goal is to build the logic behind this page.
+
+Your script should:
+
+- Add a new task to the list once the user types something in the text box and hit the "add" button.
+- Cross a task once it is done, or when the user clicks it (you can use the CSS property "text-decoration: line-through" to do so).
+
+That's it!
+
+Don't forget to zip your code and send it back to us once you're done.
